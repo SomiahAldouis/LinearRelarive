@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="20"
+    tools:context=".MainActivity"
+    android:background="@color/Blue2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="From"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/Blue4"
+        android:layout_weight="3"
+        android:layout_margin="10dp"
+        android:gravity="top"
+        android:padding="20dp"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="To"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/Blue4"
+        android:layout_weight="3"
+        android:layout_margin="10dp"
+        android:gravity="top"
+        android:padding="20dp"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Subject"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/Blue4"
+        android:layout_weight="3"
+        android:layout_margin="10dp"
+        android:gravity="top"
+        android:padding="20dp"
+    android:background="#ffffff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Compose Email"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/Blue4"
+        android:layout_weight="11"
+        android:layout_margin="10dp"
+        android:gravity="top"
+        android:padding="20dp"
+        android:background="#ffffff"/>
+
+
+
+
+</LinearLayout>
